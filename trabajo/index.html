@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <head>
-	<title>Trabajo htnl</title>
+	<title>Trabajo html</title>
 	<meta charset=utf-8>
 </head>
 <body>
@@ -22,7 +22,7 @@
         <p> HTML es el lenguaje que se emplea para el desarrollo de páginas de web. Está compuesto por una seríe de etiquetas que el navegador interpreta y da forma en la pantalla. HTML dispone de etiquetas para imágenes, hipervínculos que nos permiten dirigirnos a otras páginas, saltos de línea, listas, tablas, etc.</p>
         <p>Para escribir en html debemos saber que todas las etiquetas se abren con simbolos de mayor y menor (&lt;*>), el asterico representa al contenido de la etiqueta que queremos abrir y además debemos saber que todas las que abres hay que cerrarlas, para poder continuar con otro tipo de etiqueta o atributo; es decir, si nosotros abrimos en el inicio de la pagina &lt;html> cuando acabemos de escribir lo necesario dentro de la etqiueta deberemos de cerrarla así &lt;/*></p>
         <p>Para escribir un parrafó o empezar una linea en html lo haremos con la etiqueta p, que quedara así &lt;p>, para pasar al parrafo siguiente lo haremos con &lt;br> que nos saltadara a la siguiente lineam para eso lo pondremos al final del párrafo anterior y por ultimo con &lt;hr> nos hace lo mismo que br pero este nos crea una linea separadora entre párrafo y párrafo</p>
-        <img src="html1.png" width=500 height=200  alt="Qué es HTML"></img><br>
+        <img src="html1.png" width=500 height=200  alt="Qué es HTML"/><br>
         <a href=#elto11>Inicio</a>
         <hr>
 
@@ -68,15 +68,55 @@
 
     <h3>Simbolos especiales</h3>
     <elto id=elto4>Simbolos especiales</elto>
+    <h4>Espacio Irrompible</h4>
+    <p>Utiliza la entidad de caracter "non breaking space" para separar las palabras de tu menú de navegación tanto como quieras. (Recuerda que debes usar tantos &nbsp; como espacios en blanco quieras incluir ya que si pones los espacios en blanco directamente el navegador los agrupará como si fuese uno solo) se escribiria nbsp; con un & por delante </p><br>
+    <h4>La letra Ñ</h4>
+    <p>Para añadir una ñ en nuestra página web debemos escribir ntilde con un & por delante<br>
+    Este texto esta usando el caracter especial gui&ntilde;ote</p><br>
+    <h4>Acento agudo</h4>
+    <p>Este caracter sirve para acentuar una palabra ya que html no reconoce los acentos, para ello escribiremos *acute; con un & por delante, sustituyendo el asterisco por la letra que queremos acentuar<br>
+    Este texto lleva acento en mar&iacute;a</p>
+    <p>Podeis encontrar otrs caracteres especiales en <a href="https://dev.w3.org/html5/html-author/charref" target=blank> M&aacute;s simbolos especiales</a></p>
+    <a href=#elto11>Inicio</a>
+    <hr>
+    
+    <h3>Enlaces</h3>
+    <elto id=elto5>Enlaces</elto>
+    <h4>Enlace a una Página Web</h4>
+    <p>Vamos a crear un enlace a una página web, que lo que nos hara es crearnos un hiperenlace que cuando pinchemos en el nos llevara automaticamente a la página web deseada, para ello tendremos que escribibir &lt;a href="url de la página"> también tendremos que añadir un elemento que sera el encargado de llevarnos al enlace, para ello simplemente hay que poner el nombre que le queremos dar lt;*/a> siendo * ese nombre<br>
+    Creamos un elace a <a href="https://www.google.com"> Google</a></p><br>
+    <h4>Enlace en otra pestaña</h4>
+    <p>Este enlace nos llevara a una página web, pero en este caso nos la abrira en una pestaña nueva, para ello tendremos que añadir al &lt;a href="url de la página" target=blank><br>
+    Creamos un elace a <a href="http://www.iessantiagohernandez.com/" target=blank> Santiago Hernandez </a>
+    <h4>Enlace a un documento</h4>
+    <p>Vamos a crear un enlace a un documento, que lo que nos hara es crearnos un hiperenlace que cuando pinchemos en el nos llevara automaticamente al documento, para ello tendremos que escribibir &lt;a href="nombre del fichero.extensión"> lo que ponemos entre el cierre del enlace y el cierre general del atributo "a" sera el   
+    <p>Este enlace nos llevara a un documento llamado <a href="Imprimir.pdf"> Imprimir</a><br>
+    <h4>Descargar documento</h4>
+    <p>Vamos a crear un enlace a un documento, pero en este caso en vez de llevarnos a el, lo que nos va a hacer es descargarse en nuestro ordenador, para ello tendremos que escribibir &lt;a href="nombre del fichero.extensión" download="fichero">, añadir un elemento que sera el encargado de llevarnos al enlace, como hemos explicado en el párrafo anterior hay que ponerle un nombre a ese enlace; lt;*/a><br>
+    <p>Este enlace nos llevara a un documento llamado <a href="Imprimir.pdf" download> Imprimir</a><br>
+    <a href=#elto11>Inicio</a>	
+    <hr>
+    
+    <h3>Listas ordenadas</h3>
+    <elto id=elto6>Listas ordenadas</elto>
+    <p>Para crear una lista ordenada debemos saber su etiqueta es &lt;ol> además en ella podemos darle el tipo de numeración que queremos darle (1,a,A,i,I) poniendo así &lt;ol type=tipo de lista nombrada antes>, y metiendo entre las etiquetas ol tantos &lt;li> como númeraciones quieras</p><br>
+    <img src="Listas_Ordenadas.jpg" width=400 height=150 alt="Listas"></img> <br>
+    <a href=#elto11>Inicio</a>
+    <hr>
 
+    <h3>Listas no ordenadas</h3>
+    <elto id=elto7>Listas no ordenadas</elto>
+    <p>Para crear una lista no ordenada debemos saber su etiqueta es &lt;ul> además en ella podemos darle el tipo de numeración que queremos darle (square, ) poniendo así &lt;ol type=tipo de lista nombrada antes> y metiendo entre las etiquetas ul tantos &lt;li> como númeraciones quieras</p>
+    <img src="Listas_Nordenadas.jpg" width=400 height=150 alt="Listas"></img><br>
+    <a href=#elto11>Inicio</a>
+    <hr>
 
+    <h3>Definiciones</h3>
+    <elto id=elto8>Definiciones</elto>
+    <p></p>
+    
 
-
-
-		
-
-
-
+	
 
     
     
@@ -87,10 +127,10 @@
     
   
     
-    <elto id=elto5>Enlaces</elto>
-    <elto id=elto6>Listas ordenadas</elto>
-    <elto id=elto7>Listas no ordenadas</elto>
-    <elto id=elto8>Definiciones</elto>
+    
+   
+    
+    
     <elto id=elto9>Mapa de imagenes</elto>
     
     
@@ -104,21 +144,7 @@
     
     <!--
   
-		
-       
-		<p> Vamos a crear un enlace a una página Web para ello escribiremos a href="nombrepagina" <a href="https://google.com" target=blank> <!-- con target=blank abriremos el enlace
-		en una nueva pestaña--> Google</a> <!-- Lo que ponemos entre el cierre del enlace y el cierre general del atributo "a" sera el 
-		nombre que aparezca en nuestra página para referirnos al enlace--> </p>
-		<hr><!-- salto de parrafo -->
-		<p> Vamos a crear un enlace a un documento para ello escribiremos <a href="pantilla.html"> Otro Documento
-		</a> <!-- Lo que ponemos entre el cierre del enlace y el cierre general del atributo "a" sera el 
-		nombre que aparezca en nuestra página para referirnos al enlace--></p>
-		<hr><!-- salto de parrafo -->
-		<p> Vamos a crear un enlace a un documento para descargarlo para ello escribiremos <a href="pantilla.html" download="plantilla">
-		Otro Documento</a> <!-- Lo que ponemos entre el cierre del enlace y el cierre general del atributo "a" sera el 
-		nombre que aparezca en nuestra página para referirnos al enlace--></p>
-        <hr><!-- salto de parrafo -->
-        <img src="foto.jpg" width=50 height=50  alt=·"cuadrado rosa"></img>  <!--nos añade foto a la pag web-->
+        <img src="foto.jpg" width=50 height=50  alt=·"cuadrado rosa"></img>  <!--nos añade foto a la pag web
         <hr>
         <img usemap="#mapa">
 				<map name="mapa">
@@ -130,12 +156,12 @@
 					<area shape=circle coords="335,36,30" href="azul.html">
 				</map>
         </img>
-		<hr><!-- salto de parrafo-->
+		<hr><!-- salto de parrafo
             <h3>Simbolos Especiales</h3>
 				<p><dt>Utiliza la entidad de caracter "non breaking space" &nbsp; para separar las palabras de tu menú de navegación tanto como quieras. (Recuerda que debes usar tantos &nbsp; como espacios en blanco quieras incluir ya que si pones los espacios en blanco directamente el navegador los agrupará como si fuese uno solo)</dt></p>
-        <hr> <!--salto de parrafo-->
-				<p>gui&ntildeote</p><!--el simbolo &ntilde; lo que nos hace es añadir a la palabra que requiere el uso de la letra ñ-->
-		<hr><!--salto de parrafo-->
+        <hr> <!--salto de parrafo->
+				<p>gui&ntildeote</p><!--el simbolo &ntilde; lo que nos hace es añadir a la palabra que requiere el uso de la letra ñ-
+		<hr><!--salto de parrafo>
 		<table border=1>
 					<tr> 
 						<td>Maria Miravete</td>
@@ -170,9 +196,4 @@
             <dd>julia:maria miravete</dd>
 		
 		<!--<ol><li></ol> // listado-->
-    
-  </body> -->
-</html>
-
-
-</head>
+ 
