@@ -4,30 +4,30 @@
 	<meta charset=utf-8>
 </head>
 <body>
-        <elto id=elto11>Inicio</elto>
+    <a name=Inicio>
         <ol>
-            <li><a href=#elto1>¿Qué es HTML? </a></li>
-            <li><a href=#elto2>Niveles de titulo</a></li>
-            <li><a href=#elto3>Formato </a></li>
-            <li><a href=#elto4>Simbolos especiales </a></li>
-            <li><a href=#elto5>Tablas</a></li>
-            <li><a href=#elto6>Enlaces</a></li>
-            <li><a href=#elto7>Listas ordenadas</a></li>
-            <li><a href=#elto8>Listas no ordenadas </a></li>
-            <li><a href=#elto9>Definiciones</a></li>
-            <li><a href=#elto10>Mapa de imagenes</a></li>
+            <li><a href=#HTML>¿Qué es HTML? </a></li>
+            <li><a href=#Niveles>Niveles de titulo</a></li>
+            <li><a href=#Formato>Formato </a></li>
+            <li><a href=#SimbolosEspeciales>Simbolos especiales </a></li>
+            <li><a href=#Tablas>Tablas</a></li>
+            <li><a href=#Enlaces>Enlaces</a></li>
+            <li><a href=#ListasOrdenadas>Listas ordenadas</a></li>
+            <li><a href=#ListasNordenadas>Listas no ordenadas </a></li>
+            <li><a href=#Definiciones>Definiciones</a></li>
+            <li><a href=#Imágenes>Imágenes</a></li>
         </ol>
-    <h3>¿Qué es HTML?</h3>
-    <elto id=elto1>¿Qué es HTML?</elto>
+    <h3>1.¿Qué es HTML?</h3>
+    <a name=HTML>
         <p> HTML es el lenguaje que se emplea para el desarrollo de páginas de web. Está compuesto por una seríe de etiquetas que el navegador interpreta y da forma en la pantalla. HTML dispone de etiquetas para imágenes, hipervínculos que nos permiten dirigirnos a otras páginas, saltos de línea, listas, tablas, etc.</p>
         <p>Para escribir en html debemos saber que todas las etiquetas se abren con simbolos de mayor y menor (&lt;*>), el asterico representa al contenido de la etiqueta que queremos abrir y además debemos saber que todas las que abres hay que cerrarlas, para poder continuar con otro tipo de etiqueta o atributo; es decir, si nosotros abrimos en el inicio de la pagina &lt;html> cuando acabemos de escribir lo necesario dentro de la etqiueta deberemos de cerrarla así &lt;/*></p>
         <p>Para escribir un parrafó o empezar una linea en html lo haremos con la etiqueta p, que quedara así &lt;p>, para pasar al parrafo siguiente lo haremos con &lt;br> que nos saltadara a la siguiente lineam para eso lo pondremos al final del párrafo anterior y por ultimo con &lt;hr> nos hace lo mismo que br pero este nos crea una linea separadora entre párrafo y párrafo</p>
         <img src="html1.png" width=500 height=200  alt="Qué es HTML"/><br>
-        <a href=#elto11>Inicio</a>
+        <a href=Inicio>Inicio</a>
         <hr>
 
-    <h3>Niveles de titulo</h3>   
-    <elto id=elto2>Niveles de titulo</elto> 
+    <h3>2.Niveles de titulo</h3>   
+    <a name=Niveles> 
     <p>Tenemos 6 niveles de titulo; h1,h2,h3,h4,h5,h6</p>
         <h1>h1</h1>
     <p> El primero de ellos es que se utiliza para el titulo principal de la página, es el de mayor tamaño</p>
@@ -41,12 +41,12 @@
     <p>El penultimo nivel es utilizado para </p>
         <h6>h6</h6>
     <p>Y para acabar este es utilizado para </p>
-       <a href=#elto11>Inicio</a>
+      <a href=#Inicio>Inicio</a>
     <hr>
     
     
-    <h3>Formato</h3>
-    <elto id=elto3>Formato</elto>
+    <h3>3.Formato</h3>
+    <a name=Formato>
     <p>Para empezar explicare el formato de "negrita" con este formato lo que hacemos es resaltar la información con un negro más intenso para ello tendremos que escribir 
     &lt;strong><br>
     Este párrafo <strong>contiene información en negrita</strong> y también en formato predeterminado.</p>
@@ -63,11 +63,11 @@
     En todos estos formatos cuando no queramos continuar con ellos tendremos que cerrarlos, si no la fuente seguira siendo la que le hemos dado el formato; &lt;/*>.<br>
     <p>Cuando diseñados una página web y tenemos varios apartados y los queremos tener más ordenados tendremos que estructurarlo en secciones y articulos
     </p>
-    <a href=#elto11>Inicio</a>
+    <a href=#Inicio>Inicio</a>
     <hr> 
 
-    <h3>Simbolos especiales</h3>
-    <elto id=elto4>Simbolos especiales</elto>
+    <h3>4.Simbolos especiales</h3>
+    <a name=SimbolosEspeciales>
     <h4>Espacio Irrompible</h4>
     <p>Utiliza la entidad de caracter "non breaking space" para separar las palabras de tu menú de navegación tanto como quieras. (Recuerda que debes usar tantos &nbsp; como espacios en blanco quieras incluir ya que si pones los espacios en blanco directamente el navegador los agrupará como si fuese uno solo) se escribiria nbsp; con un & por delante </p><br>
     <h4>La letra Ñ</h4>
@@ -77,11 +77,34 @@
     <p>Este caracter sirve para acentuar una palabra ya que html no reconoce los acentos, para ello escribiremos *acute; con un & por delante, sustituyendo el asterisco por la letra que queremos acentuar<br>
     Este texto lleva acento en mar&iacute;a</p>
     <p>Podeis encontrar otrs caracteres especiales en <a href="https://dev.w3.org/html5/html-author/charref" target=blank> M&aacute;s simbolos especiales</a></p>
-    <a href=#elto11>Inicio</a>
+    <a href=#Inicio>Inicio</a>
     <hr>
     
-    <h3>Enlaces</h3>
-    <elto id=elto5>Enlaces</elto>
+    <h3>5.Tablas</h3>
+    <a name=Tablas>
+    <p>Las tablas en HTML se definen con tres etiquetas: &lt;table> para crear la tabla, &lt;tr> para crear cada fila y &lt;td> para crear cada columna, como todas las etiquetas nos tenemos que acordar de cerrarlas</p><br>
+    &lt;table><br>
+    &nbsp;&nbsp;&lt;tr><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;td>Alumna&lt;/td><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;td>Edad&lt;/td><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;td>Ciudad&lt;/td><br>
+    &nbsp;&nbsp;&lt;/tr><br>
+    &nbsp;&nbsp;&lt;tr><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;td>Maria&lt;/td><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;td>20&lt;/td><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;td>Zaragoza&lt;/td><br>
+    &nbsp;&nbsp;&lt;/tr><br>
+     &nbsp;&nbsp;&lt;tr><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;td>Pilar&lt;/td><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;td>49&lt;/td><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;td>Zaragoza&lt;/td><br>
+    &nbsp;&nbsp;&lt;/tr><br>      
+    &lt;/table><br>
+    <img src="Tabla.JPG" width=250 height=150 alt="Listas"><br>
+    <a href=#Inicio>Inicio</a>
+        
+    <h3>6.Enlaces</h3>
+    <a name=Enlaces>
     <h4>Enlace a una Página Web</h4>
     <p>Vamos a crear un enlace a una página web, que lo que nos hara es crearnos un hiperenlace que cuando pinchemos en el nos llevara automaticamente a la página web deseada, para ello tendremos que escribibir &lt;a href="url de la página"> también tendremos que añadir un elemento que sera el encargado de llevarnos al enlace, para ello simplemente hay que poner el nombre que le queremos dar lt;*/a> siendo * ese nombre<br>
     Creamos un elace a <a href="https://www.google.com"> Google</a></p><br>
@@ -94,59 +117,61 @@
     <h4>Descargar documento</h4>
     <p>Vamos a crear un enlace a un documento, pero en este caso en vez de llevarnos a el, lo que nos va a hacer es descargarse en nuestro ordenador, para ello tendremos que escribibir &lt;a href="nombre del fichero.extensión" download="fichero">, añadir un elemento que sera el encargado de llevarnos al enlace, como hemos explicado en el párrafo anterior hay que ponerle un nombre a ese enlace; lt;*/a><br>
     <p>Este enlace nos llevara a un documento llamado <a href="Imprimir.pdf" download> Imprimir</a><br>
-    <a href=#elto11>Inicio</a>	
+    <a href=#Inicio>Inicio</a>
     <hr>
     
-    <h3>Listas ordenadas</h3>
-    <elto id=elto6>Listas ordenadas</elto>
+    <h3>7.Listas ordenadas</h3>
+    <a name=ListasOrdenadas>
     <p>Para crear una lista ordenada debemos saber su etiqueta es &lt;ol> además en ella podemos darle el tipo de numeración que queremos darle (1,a,A,i,I) poniendo así &lt;ol type=tipo de lista nombrada antes>, y metiendo entre las etiquetas ol tantos &lt;li> como númeraciones quieras</p><br>
-    <img src="Listas_Ordenadas.jpg" width=400 height=150 alt="Listas"></img> <br>
-    <a href=#elto11>Inicio</a>
+       &lt;ol ><br>
+             &nbsp;&nbsp;&lt;li>Maria&lt;/li><br>
+             &nbsp;&nbsp;&lt;li>Miravete&lt;/li><br>
+             &nbsp;&nbsp;&lt;li>Herreria&lt;/li><br>
+        &lt;/ol><br>
+    <img src="Listas_Ordenadas.jpg" width=400 height=150 alt="Listas"> <br>
+    <a href=#Inicio>Inicio</a>
     <hr>
 
-    <h3>Listas no ordenadas</h3>
-    <elto id=elto7>Listas no ordenadas</elto>
-    <p>Para crear una lista no ordenada debemos saber su etiqueta es &lt;ul> además en ella podemos darle el tipo de numeración que queremos darle (square, ) poniendo así &lt;ol type=tipo de lista nombrada antes> y metiendo entre las etiquetas ul tantos &lt;li> como númeraciones quieras</p>
-    <img src="Listas_Nordenadas.jpg" width=400 height=150 alt="Listas"></img><br>
-    <a href=#elto11>Inicio</a>
+    <h3>8.Listas no ordenadas</h3>
+    <a name=ListasNordenadas>
+    <p>Para crear una lista no ordenada debemos saber su etiqueta es &lt;ul> además en ella podemos darle el tipo de numeración que queremos darle (square, ) poniendo así &lt;ol type=tipo de lista nombrada antes> y metiendo entre las etiquetas ul tantos &lt;li> como númeraciones quieras</p><br>
+          &lt;ul type=*><br>
+             &nbsp;&nbsp;&lt;li>Maria&lt;/li><br>
+             &nbsp;&nbsp;&lt;li>Miravete&lt;/li><br>
+             &nbsp;&nbsp;&lt;li>Herreria&lt;/li><br>
+        &lt;/ul><br>
+
+    <img src="Listas_Nordenadas.jpg" width=400 height=150 alt="Listas"><br>
+    <a href=#Inicio>Inicio</a>
     <hr>
 
-    <h3>Definiciones</h3>
-    <elto id=elto8>Definiciones</elto>
-    <p></p>
-    
-
-	
-
-    
-    
-    
-    
-    
-   
-    
-  
-    
-    
-   
-    
-    
-    <elto id=elto9>Mapa de imagenes</elto>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <!--
-  
-        <img src="foto.jpg" width=50 height=50  alt=·"cuadrado rosa"></img>  <!--nos añade foto a la pag web
-        <hr>
-        <img usemap="#mapa">
+    <h3>9.Definiciones</h3>
+    <a name=Definiciones>
+    <p>Para haceruna lista de definiciones usaresmos dl,dd,dt; la primera de ellas (dl) nos quiere decir que dentro de esa lista va a ver unas definiciones escribiendose &lt;dl> y su cierre, entre estos ira dd que sera la palabra que vamos a definir con dt, sus sintaxis son las mismas que la dl<br>
+        &lt;dl><br>
+            &nbsp;&nbsp;&lt;dd>maria&lt;/dd><br>
+               &nbsp;&nbsp;&nbsp;&nbsp; &lt;dt>alumna&lt;/dd><br>
+        &lt;/dl></p>
+    <img src="Listas_Definiciones.jpg" width=950 height=250 alt="Listas"><br>
+    <a href=#Inicio>Inicio</a>    
+        
+    <h3>Imágenes</h3>
+	<a name=Imágenes>
+    <h4>Insertar imágenes</h4>    
+    <p>Para insertar una imágen tenemos que tener claro que su atributo es img, en ella tendremos que poner también la extensión del archivo y si lo deseamos una descripciíón de la imágen , además de todo eso le tenemos que dar los valores de altura llamado en html height y anchura y llamado width que queremos que tenga nuesta imágen. Vamos a ver un ejemplo de su sintaxis, los valores de altura y anchura pueden ser otros ya que eso es solo un ejemplo.</p>
+    <img src="Imagenes.JPG" width=900 height=100 ><br>
+        
+    <h4>Mapa de Imágenes</h4>
+    <p>Los mapas de imágenes es un nuevo planteamiento de navegación que incorpora una serie de enlaces dentro de una misma imagen. Estos enlaces son definidos por figuras geométricas y funcionan exactamente del mismo modo que los otros enlaces, Podemos utilizar estos mapas, por ejemplo, en portadas donde damos a conocer cada una de las secciones del sitio por medio de una imagen. También puede ser muy práctico en mapas geográficos donde cada ciudad, provincia o punto cualquiera representa un enlace a una página.<br>
+        Debtro del mapa de imagenes tenemos que tener clara la existencia de 4 atributos:</p><br>
+        <ol>
+            <li>alt:&nbsp; Que sirve parea indicar un texto que se muestra cuando situamos el ratón encima de el area</li>
+            <li>shape: &nbsp;Indica el tipo de área</li>
+            <li>coords:&nbsp; El grupo de valores númericos</li>
+            <li>href:&nbsp; Para indicar el destino del enlace</li>
+        </ol><br>
+    <p>Vamos a ver un ejemplo, y en cada enlace de los circulos que mostrare como imágen tendremos la sintaxis de ese mapa de imágenes</p>
+     <img usemap="#mapa">
 				<map name="mapa">
 				<img src="circulos.gif" usemap=#circulos>
 				<map name=circulos id=circulos>
@@ -154,46 +179,34 @@
 					<area shape=circle coords="140,36,30" href="naranja.html">
 					<area shape=circle coords="237,36,30" href="verde.html">
 					<area shape=circle coords="335,36,30" href="azul.html">
-				</map>
-        </img>
-		<hr><!-- salto de parrafo
-            <h3>Simbolos Especiales</h3>
-				<p><dt>Utiliza la entidad de caracter "non breaking space" &nbsp; para separar las palabras de tu menú de navegación tanto como quieras. (Recuerda que debes usar tantos &nbsp; como espacios en blanco quieras incluir ya que si pones los espacios en blanco directamente el navegador los agrupará como si fuese uno solo)</dt></p>
-        <hr> <!--salto de parrafo->
-				<p>gui&ntildeote</p><!--el simbolo &ntilde; lo que nos hace es añadir a la palabra que requiere el uso de la letra ñ-
-		<hr><!--salto de parrafo>
-		<table border=1>
-					<tr> 
-						<td>Maria Miravete</td>
-						<td>Juan Miravete</td>
-                        <td colspan="2"> Pilar Herreria</td> 
-						
-                    </tr>
-					<tr> 
-						<td>20 años</td>
-						<td>52 años</td>
-						<td>49 años</td>
-                        <td>49 años</td>
-                    </tr>
-					<tr> 
-						<td rowspan="2">1996</td>
-						<td>1964</td>
-						<td>1967</td>
-						<td>1967</td>
-					</tr>
-					<tr > 
-						
-						<td>Zaragoza</td>
-						<td>Zaragoza</td>
-                        <td>Zaragoza</td>
-					</tr>
-					</table>
+				</map>    
+      
+        
+       
+    
+    
+    
+   
+    
+  
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
         <hr>
-        <h3>Listas</h3>
-		<ol>1.Maria miravete</ol>
-            <ol>2.juan miravete</ol>
-            <dt>que es amor</dt>
-            <dd>julia:maria miravete</dd>
+        
+        
 		
-		<!--<ol><li></ol> // listado-->
- 
