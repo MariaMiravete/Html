@@ -1,9 +1,14 @@
 <!DOCTYPE HTML>
+<html lang=es>
 <head>
 	<title>Trabajo html</title>
 	<meta charset=utf-8>
+    <meta name="author" content="Maria Miravete">
+    <link rel="stylesheet" href="Estilo.css">
 </head>
+
 <body>
+   <h1>  MANUAL HTML </h1>
     <a name=Inicio>
         <ol>
             <li><a href=#HTML>¿Qué es HTML? </a></li>
@@ -19,47 +24,57 @@
         </ol>
     <h3>1.¿Qué es HTML?</h3>
     <a name=HTML>
-        <p> HTML es el lenguaje que se emplea para el desarrollo de páginas de web. Está compuesto por una seríe de etiquetas que el navegador interpreta y da forma en la pantalla. HTML dispone de etiquetas para imágenes, hipervínculos que nos permiten dirigirnos a otras páginas, saltos de línea, listas, tablas, etc.</p>
-        <p>Para escribir en html debemos saber que todas las etiquetas se abren con simbolos de mayor y menor (&lt;*>), el asterico representa al contenido de la etiqueta que queremos abrir y además debemos saber que todas las que abres hay que cerrarlas, para poder continuar con otro tipo de etiqueta o atributo; es decir, si nosotros abrimos en el inicio de la pagina &lt;html> cuando acabemos de escribir lo necesario dentro de la etqiueta deberemos de cerrarla así &lt;/*></p>
-        <p>Para escribir un parrafó o empezar una linea en html lo haremos con la etiqueta p, que quedara así &lt;p>, para pasar al parrafo siguiente lo haremos con &lt;br> que nos saltadara a la siguiente lineam para eso lo pondremos al final del párrafo anterior y por ultimo con &lt;hr> nos hace lo mismo que br pero este nos crea una linea separadora entre párrafo y párrafo</p>
-        <img src="html1.png" width=500 height=200  alt="Qué es HTML"/><br>
-        <a href=Inicio>Inicio</a>
-        <hr>
+    <p> HTML es el lenguaje que se emplea para el desarrollo de páginas de web. Está compuesto por una seríe de etiquetas que el navegador interpreta y da forma en la pantalla. HTML dispone de etiquetas para imágenes, hipervínculos que nos permiten dirigirnos a otras páginas, saltos de línea, listas, tablas, etc.</p>
+    <p>Para escribir en html debemos saber que todas las etiquetas se abren con simbolos de mayor y menor (&lt;*>), el asterico representa al contenido de la etiqueta que queremos abrir y además debemos saber que todas las que abres hay que cerrarlas, para poder continuar con otro tipo de etiqueta o atributo; es decir, si nosotros abrimos en el inicio de la pagina &lt;html> cuando acabemos de escribir lo necesario dentro de la etqiueta deberemos de cerrarla así &lt;/*></p>
+    <p>Para empezar al principio del archivo html hay que declarar que tipo de html que vamos a usar en la web, &lt;DOCTYPE html> para seguir hay que abrir la etiqueta &lt;html> que se cerrara al final del codigo.</p>
+    <p>Para escribir un parrafó o empezar una linea en html lo haremos con la etiqueta p, que quedara así &lt;p>, para pasar al parrafo siguiente lo haremos con &lt;br> que nos saltadara a la siguiente linea para eso lo pondremos al final del párrafo anterior y por ultimo con &lt;hr> nos hace lo mismo que br pero este nos crea una linea separadora entre párrafo y párrafo</p>
+    <img src="html1.png" id="1"  alt="Qué es HTML"/><br>
+    <p>También tenemos que meter el titulo de la página web, el autor y charset (El elemento meta con atributo charset en un documento HTML está destinado a indicar la codificación de caracteres utilizada)</p>
+    <img src="head.JPG" id="2" alt="Qué es HTML"/><br>
+    <a href=Inicio>Inicio</a>
+    <hr>
 
     <h3>2.Niveles de titulo</h3>   
     <a name=Niveles> 
-    <p>Tenemos 6 niveles de titulo; h1,h2,h3,h4,h5,h6</p>
-        <h1>h1</h1>
-    <p> El primero de ellos es que se utiliza para el titulo principal de la página, es el de mayor tamaño</p>
-        <h2>h2</h2>
-    <p>El segundo normalmente se usa para subtitulos de páginas, tiene un tamaño un poco menor que el anterior </p>
-        <h3> h3</h3>
-    <p>El tercero de ellos se utiliza para titulos de secciones, como ya hemos dicho antes el tamaño sigue disminuyendo con forme vamos subiendo de nivel</p>
-        <h4>h4</h4>
-    <p>El cuarto de ellos se utiliza para subsecciones</p>
-        <h5>h5</h5>
-    <p>El penultimo nivel es utilizado para </p>
-        <h6>h6</h6>
-    <p>Y para acabar este es utilizado para </p>
+    <p>Tenemos 6 niveles de titulo; h1,h2,h3,h4,h5,h6; estos seis niveles de titulo se escriben &lt;h*>, cerrandolo &lt;/h*> una vez que hayamos acabado el titulo.</p><br>
+    <p> El primero de ellos es que se utiliza para el titulo principal de la página, es el de mayor tamaño</p><br>
+    <p>El segundo normalmente se usa para subtitulos de páginas, tiene un tamaño un poco menor que el anterior </p><br>
+    <p>El tercero de ellos se utiliza para titulos de secciones, como ya hemos dicho antes el tamaño sigue disminuyendo con forme vamos subiendo de nivel</p><br>
+    <p>El cuarto de ellos se utiliza para subsecciones</p><br>
+    <p>El penultimo nivel es utilizado para </p><br>
+    <p>Y para acabar este es utilizado para </p><br>
+    <img src="Titulos.jpg" alt="Niveles Titulo"><br>
       <a href=#Inicio>Inicio</a>
     <hr>
     
     
     <h3>3.Formato</h3>
     <a name=Formato>
+    <h4>Texto preformateado</h4>
+    <p>Es un atributo que lo que hace es mostrar la información en la página web con el mismo formato que hemos introducido, se escribe de la siguiente manera &lt;pre>:</p><br>
+    <pre>Este texto aparecerá escrito     con el mismo
+        formato utilizadndo espacios.</pre><br>
+    <h4>Negrita</h4>
     <p>Para empezar explicare el formato de "negrita" con este formato lo que hacemos es resaltar la información con un negro más intenso para ello tendremos que escribir 
-    &lt;strong><br>
-    Este párrafo <strong>contiene información en negrita</strong> y también en formato predeterminado.</p>
+    &lt;b><br>
+    Este párrafo <b>contiene información en negrita</b> y también en formato predeterminado.</p><br>
+    <h4>Relsaltar</h4>
+    <p>Para resaltar un información de nuestra página web importante usaremos el atributo &lt;strong> que todo lo que metamos dentro de esa etiqueta sera la parte importante, seria o urgente.<br>
+    Este párrafo tiene <strong>una parte más importante</strong></p><br>
+    <h4>Enfatizado</h4>
     <p>El siguiente formato de enfatizado, se escribe de la siguiente manera &lt;em><br>
-    Este párrafo <em>tiene formato de enfatizado</em> para pasar a formato predeterminado</p>
+    Este párrafo <em>tiene formato de enfatizado</em> para pasar a formato predeterminado</p><br>
+    <h4>Bastardilla</h4>
     <p>El siguiente formato de "italica", se escribe de la siguiente manera &lt;i><br>
     Este párrafo <i>tiene formato de cursiva "gráficamente"</i> para pasar a formato predeterminado</p>
+    <h4>Letra pequeña</h4>
     <p>El siguiente formato consiste en hacer ese tipo de letra más pequeña, se escribe de la siguiente manera &lt;small><br>
-    Este párrafo <small>tiene formato de letra más pequeña</small> para pasar a formato predeterminado</p>
+    Este párrafo <small>tiene formato de letra más pequeña</small> para pasar a formato predeterminado</p><br>
+    <h4>Subrayado</h4>
     <p> También se puede subrayar el contenido que metas dentro de las etiquetas &lt;u><br>
     Este párrafo <u>tiene contenido subrayado</u></p>
-    <p>cuando queramos poner información irrelevante u obsoleta y no la quieres borrar de la página lo pondremos asi &lt;s><br>
-    Este párrafo tiene <s>información obsoleta y irrelevante</s></p>
+    <p>Cuando queramos poner información irrelevante u obsoleta y no la quieres borrar de la página lo pondremos asi &lt;s><br>
+    Este párrafo tiene <s>información obsoleta y irrelevante</s></p><br>
     En todos estos formatos cuando no queramos continuar con ellos tendremos que cerrarlos, si no la fuente seguira siendo la que le hemos dado el formato; &lt;/*>.<br>
     <p>Cuando diseñados una página web y tenemos varios apartados y los queremos tener más ordenados tendremos que estructurarlo en secciones y articulos
     </p>
@@ -100,7 +115,7 @@
     &nbsp;&nbsp;&nbsp;&nbsp;&lt;td>Zaragoza&lt;/td><br>
     &nbsp;&nbsp;&lt;/tr><br>      
     &lt;/table><br>
-    <img src="Tabla.JPG" width=250 height=150 alt="Listas"><br>
+    <img src="Tabla.JPG" id="3" alt="Listas"><br>
     <a href=#Inicio>Inicio</a>
         
     <h3>6.Enlaces</h3>
@@ -128,7 +143,7 @@
              &nbsp;&nbsp;&lt;li>Miravete&lt;/li><br>
              &nbsp;&nbsp;&lt;li>Herreria&lt;/li><br>
         &lt;/ol><br>
-    <img src="Listas_Ordenadas.jpg" width=400 height=150 alt="Listas"> <br>
+    <img src="Listas_Ordenadas.jpg" id="4" alt="Listas"> <br>
     <a href=#Inicio>Inicio</a>
     <hr>
 
@@ -141,7 +156,7 @@
              &nbsp;&nbsp;&lt;li>Herreria&lt;/li><br>
         &lt;/ul><br>
 
-    <img src="Listas_Nordenadas.jpg" width=400 height=150 alt="Listas"><br>
+    <img src="Listas_Nordenadas.jpg" id="5" alt="Listas"><br>
     <a href=#Inicio>Inicio</a>
     <hr>
 
@@ -152,14 +167,14 @@
             &nbsp;&nbsp;&lt;dd>maria&lt;/dd><br>
                &nbsp;&nbsp;&nbsp;&nbsp; &lt;dt>alumna&lt;/dd><br>
         &lt;/dl></p>
-    <img src="Listas_Definiciones.jpg" width=950 height=250 alt="Listas"><br>
+    <img src="Listas_Definiciones.jpg" id="6" alt="Listas"><br>
     <a href=#Inicio>Inicio</a>    
         
     <h3>Imágenes</h3>
 	<a name=Imágenes>
     <h4>Insertar imágenes</h4>    
     <p>Para insertar una imágen tenemos que tener claro que su atributo es img, en ella tendremos que poner también la extensión del archivo y si lo deseamos una descripciíón de la imágen , además de todo eso le tenemos que dar los valores de altura llamado en html height y anchura y llamado width que queremos que tenga nuesta imágen. Vamos a ver un ejemplo de su sintaxis, los valores de altura y anchura pueden ser otros ya que eso es solo un ejemplo.</p>
-    <img src="Imagenes.JPG" width=900 height=100 ><br>
+    <img src="Imagenes.JPG" id="7" ><br>
         
     <h4>Mapa de Imágenes</h4>
     <p>Los mapas de imágenes es un nuevo planteamiento de navegación que incorpora una serie de enlaces dentro de una misma imagen. Estos enlaces son definidos por figuras geométricas y funcionan exactamente del mismo modo que los otros enlaces, Podemos utilizar estos mapas, por ejemplo, en portadas donde damos a conocer cada una de las secciones del sitio por medio de una imagen. También puede ser muy práctico en mapas geográficos donde cada ciudad, provincia o punto cualquiera representa un enlace a una página.<br>
@@ -170,19 +185,18 @@
             <li>coords:&nbsp; El grupo de valores númericos</li>
             <li>href:&nbsp; Para indicar el destino del enlace</li>
         </ol><br>
-    <p>Vamos a ver un ejemplo, y en cada enlace de los circulos que mostrare como imágen tendremos la sintaxis de ese mapa de imágenes</p>
-     <img usemap="#mapa">
-				<map name="mapa">
-				<img src="circulos.gif" usemap=#circulos>
-				<map name=circulos id=circulos>
+    <p>Vamos a ver un ejemplo, y en cada enlace de los circulos que mostrare como imágen, tendremos la sintaxis de este mapa de imágenes</p>
+        <img src="circulos.gif" usemap=#circulos>
+        <map name=circulos id=circulos>
 					<area shape=circle coords="44,36,30" href="rojo.html">
 					<area shape=circle coords="140,36,30" href="naranja.html">
 					<area shape=circle coords="237,36,30" href="verde.html">
 					<area shape=circle coords="335,36,30" href="azul.html">
-				</map>    
-      
-        
-       
+                   
+        </map>    
+     
+    </body>
+</html>    
     
     
     
@@ -206,7 +220,6 @@
     
     
 
-        <hr>
         
         
 		
